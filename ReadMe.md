@@ -1,1 +1,1 @@
-VUVCE BUIOWBC O
+This repository conatins code for the final course project - "Faithful Benchmark for Information-Seeking Dialogue - Fact Hallucinations Detection and Prevention" and detailed instructions to run the code 

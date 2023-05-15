@@ -1,4 +1,4 @@
-This repository conatins milestone-2 code for the final course project - "Faithful Benchmark for Information-Seeking Dialogue - Fact Hallucinations Detection and Prevention" and detailed instructions to run the code 
+This folder conatins milestone-2 code for the final course project - "Faithful Benchmark for Information-Seeking Dialogue - Fact Hallucinations Detection and Prevention" and detailed instructions to run the code 
 
 Instructions to run the code:
 1) For task-1: "python task1.py" - it will train and test the model. And after training, it will save the generated model as task1_model.pth. If we want to just test the model, we can comment out trainer.fit and torch.save lines from the code.

@@ -1,6 +1,6 @@
 This folder contains milestone-2 code and detailed instructions to run the code 
 
-Instructions to run the code:
+**Instructions to run the code:**
 1) For task-1: "python task1.py" - it will train and test the model. And after training, it will save the generated model as task1_model.pth. If you want to just test the model, you can comment out trainer.fit and torch.save lines from the code.
 2) For task-2: 
    BEGIN Classification: "python task2_vrm.py" - it will train and test the model

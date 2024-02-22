@@ -1,3 +1,5 @@
+*Hallucination in Chat-bots
+
 This repository conatins code for the final course project - "Faithful Benchmark for Information-Seeking Dialogue - Fact Hallucinations Detection and Prevention" and detailed instructions to run the code
 
 There are two folders present in this repository - milestone-2 and and milestone-3.

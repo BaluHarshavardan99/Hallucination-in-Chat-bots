@@ -1,22 +1,26 @@
-# Hallucination in Chat-bots
+# Hallucination in Chat-bots: Faithful Benchmark for Information-Seeking Dialogue - Fact Hallucinations Detection and Prevention
 
-**Faithful Benchmark for Information-Seeking Dialogue - Fact Hallucinations Detection and Prevention**
+This repository contains the code for the final project of the course "CSE 635: Natural Language Processing and Information Retrieval." The project focuses on detecting and preventing hallucinations in Information-Seeking Dialogue-based NLP systems.
 
-This repository contains code for the final project of the course "CSE 635: Natural Langauge Processing and Information Retrieval" and detailed instructions to run the code.
+## Abstract
+Chatbots offer a convenient means of communication but are susceptible to generating factually incorrect responses, known as hallucinations. These errors can mislead users and damage the chatbot's credibility. In this project, we propose a solution to detect and mitigate hallucinations in chatbot outputs, particularly in Information-Seeking Dialogues.
 
+We leverage both rule-based techniques and machine learning models to identify and flag hallucinated content. Our approach involves:
+- Detecting hallucinations using a combination of rule-based methods and RoBERTa-large, a pre-trained language model.
+- Preventing future hallucinations by modifying the training data, reweighting model parameters, and incorporating feedback loops with human experts.
 
-**Abstract:** <br>
-Chatbots can provide a convenient and efficient means of communication, but they are not immune to errors. Hallucination is one of the most significant problems associated with chatbots. When a chatbot provides factually incorrect responses, it can be detrimental to the user and the chatbot's performance. Hallucinations can result in users receiving misinformation or even harm. To address this issue, we propose a model to detect and prevent hallucinations in Information-Seeking Dialogue-based NLP systems. In this project, we explore various techniques to identify and reduce hallucinations in NLG models. Our approach involves combining rule-based techniques and machine learning algorithms to detect potential hallucinations in the model's output. Once identified, we prevent the model from generating such responses in the future by modifying the training data, reweighting model parameters, or introducing a feedback loop with human experts. Our project aims to enhance user trust, improve the overall quality of chatbots, and reduce the potential harm caused by misinformation.
+The ultimate goal of this project is to improve user trust, enhance the reliability of chatbots, and reduce the harm caused by misinformation.
 
+## Instructions to Run the Code
 
+This repository contains two folders: `milestone-2` and `milestone-3`.
 
+### 1. Baseline Model (milestone-2)
+The baseline model is implemented using the **RoBERTa-large** architecture.
 
-**Instructions to run the code:**
+To train and test the baseline model, follow these steps:
+```bash
+python task1.py
 
-There are two folders present in this repository - milestone-2 and milestone-3. The milestone-2 folder contains our baseline model code which is RoBERTa-large model. The milestone-3 folder contains our final model code which is a modified version of the RoBERTa-large model.
-
-1) For task-1: "python task1.py" - it will train and test the model. And after training, it will save the generated model as task1_model.pth. If you want to just test the model, you can comment out trainer.fit and torch.save lines from the code.
-2) For task-2: BEGIN and VRM Classification: "python task2.py" - it will train and test the model. After training, it will save the generated model as task21_model.pth and task22_model.pth respectively. If you want to just test the model, you can comment out trainer.fit and torch.save lines from the code.
-3) For task-3: "python task3.py" - you need to run task-1 before you run task-3 so that the task1_model.pth is generated which will then be used to classify whether the generated responses are hallucinated or not.
 
 

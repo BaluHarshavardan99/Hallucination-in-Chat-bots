@@ -11,6 +11,16 @@ We leverage both rule-based techniques and machine learning models to identify a
 
 The ultimate goal of this project is to improve user trust, enhance the reliability of chatbots, and reduce the harm caused by misinformation.
 
+## Model Overview
+
+1. Baseline Model (milestone-2)
+   - Uses RoBERTa-large as the foundation.
+   - Implemented in `milestone-2/task1.py`.
+
+2. Final Model (milestone-3)
+   - A modified version of RoBERTa-large with additional techniques for hallucination prevention.
+
+
 ## Instructions to Run the Code
 
 This repository contains two folders: `milestone-2` and `milestone-3`.
@@ -22,18 +32,9 @@ To train and test the baseline model, follow these steps:
 ```bash
 python task1.py
 ``` 
-# Chatbot Hallucination Prevention Project
 
-This project focuses on developing and testing models to prevent hallucinations in chatbot responses, with a particular emphasis on using RoBERTa-large as the base model.
 
-## Model Overview
 
-1. Baseline Model (milestone-2)
-   - Uses RoBERTa-large as the foundation.
-   - Implemented in `milestone-2/task1.py`.
-
-2. Final Model (milestone-3)
-   - A modified version of RoBERTa-large with additional techniques for hallucination prevention.
 
 ## Tasks
 
@@ -92,13 +93,9 @@ python task3.py
 * Python 3.x
 * PyTorch
 * Transformers
-* Other dependencies listed in `requirements.txt`
+  
 
-To install the dependencies, run:
 
-```bash
-pip install -r requirements.txt
-```
 
 ## Future Improvements
 
@@ -106,9 +103,7 @@ pip install -r requirements.txt
 * Exploring additional datasets for broader generalization.
 * Refining rule-based techniques for more accurate detection.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 

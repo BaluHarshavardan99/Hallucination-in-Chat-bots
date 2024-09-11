@@ -21,7 +21,7 @@ The baseline model is implemented using the **RoBERTa-large** architecture.
 To train and test the baseline model, follow these steps:
 ```bash
 python task1.py
-``` bash
+``` 
 # Chatbot Hallucination Prevention Project
 
 This project focuses on developing and testing models to prevent hallucinations in chatbot responses, with a particular emphasis on using RoBERTa-large as the base model.
